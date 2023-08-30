@@ -28,20 +28,20 @@ The signal parameters listed bellow yields the following figure:
 - *Noise*: `noise_type = white`, `noise_floor = -50 dB`
 - *Sampling*: `sample_numbers = 1024`, `sample_frequency = 48000 Hz`
 
-<img src="https://github.com/omkarpatil06/fft_signal_processing/assets/94877472/0fbd20e7-0969-4f54-9b81-4921f4eb79cf" width="600" height="400" />
+<img src="https://github.com/omkarpatil06/fft_signal_processing/assets/94877472/acae7384-ab73-4c2e-85d7-65f309fde154" width="600" height="400" />
 
 ### Window Generator
 The window selected bellow, have the following window spectrums. A trade-off is observed between main-lobe width, first side-lobe level and side-lobe fall-off.
 
-<img src="https://github.com/omkarpatil06/fft_signal_processing/assets/94877472/763c23cb-c342-477a-b668-44960b8f2537" width="600" height="400" />
+<img src="https://github.com/omkarpatil06/fft_signal_processing/assets/94877472/f1b4a92d-a308-4ed9-9126-bc650bb188d0" width="600" height="400" />
 
 ### Fourier Transform
 After applying the selected windows to the signal, their corresponding single-sided DFT and FFT magnitude spectrums are shown bellow.
 
 #### Discrete Fourier Transform
-<img src="https://github.com/omkarpatil06/fft_signal_processing/assets/94877472/5f0ac679-9887-46ad-b120-092f33a5476c" width="600" height="400" />
+<img src="https://github.com/omkarpatil06/fft_signal_processing/assets/94877472/f39c6055-72a6-4140-b6ed-29f035fedf8c" width="600" height="400" />
 
 #### Fast Fourier Transform
-<img src="https://github.com/omkarpatil06/fft_signal_processing/assets/94877472/8835f87b-7d11-4929-9814-e1307f9a5d23" width="600" height="400" />
+<img src="https://github.com/omkarpatil06/fft_signal_processing/assets/94877472/90268804-3af5-4848-8a90-045123fa41d8" width="600" height="400" />
 
 This project provided an excellent oppurtunity to experiment with the basics of signal processing. It also gave me a practical understanding of concepts such as aliasing and processing gain, which occurs after increasing the sample numbers.
